@@ -49,7 +49,7 @@
 > 新版的ffmpeg4.0以上删除了ffserver，不知道为什么要删除这个。如果知道请告知，感激不尽
 
 >>  #!/bin/bash  <br>
->>  NDK=/home/csh/shareVM//android-ndk-r17b  <br>
+>>  NDK=/home/csh/shareVM//android-ndk-r17b  //唯一需要修改的地方。修改成自己的ndk路径<br>
 >>  SYSROOT=$NDK/platforms/android-21/arch-arm/  <br>
 >>  CPU=armv7-a  <br>
 >>  TOOLCHAIN=$NDK/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64  <br>
