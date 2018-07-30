@@ -45,8 +45,9 @@
 >>  SLIB_INSTALL_NAME='$(SLIBNAME_WITH_MAJOR)'    <br>
 >>  SLIB_INSTALL_LINKS='$(SLIBNAME)'    <br>  <br>  <br>
 
+> 新版的ffmpeg4.0以上删除了ffserver，不知道为什么要删除这个。如果知道请告知，感激不尽<br>
 >  在configure同级目录下新建build.sh  内容如下  <br>  <br>
-> 新版的ffmpeg4.0以上删除了ffserver，不知道为什么要删除这个。如果知道请告知，感激不尽
+
 
 >>  #!/bin/bash  <br>
 >>  NDK=/home/csh/shareVM//android-ndk-r17b  //唯一需要修改的地方。修改成自己的ndk路径<br>
