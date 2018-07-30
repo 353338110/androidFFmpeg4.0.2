@@ -11,7 +11,8 @@
 > apt-get install pkg-config<br><br><br>
 
 > 下载ffmpeg和ndk（可以在虚拟机的目录中首先下载好，然后使用cp命令转移到linux系统中）<br>
-> cp /mnt/hgfs/shareVM  /home/csh/shareVM  (/mnt/hgfs/shareVM是ubuntu中和win共享的路径，/home/csh/shareVM是本人接下来要操作的路径)<br><br><br>
+> cp /mnt/hgfs/shareVM  /home/csh/shareVM <br>
+> (/mnt/hgfs/shareVM是ubuntu中和win共享的路径，/home/csh/shareVM是本人接下来要操作的路径)<br><br><br>
 
 > 下载ffmpeg   然后解压ffmpeg，本人的ffmpeg路径是  /home/csh/shareVM/ffmpeg-4.0.2<br>
 > tar -zxvf 下载后的ffmpeg名称<br><br><br>
